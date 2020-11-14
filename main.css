@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+* { 
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+    color : orange;
+    font-size : 45px;
+    margin : 0px;
+    padding : 24px;
+    text-align : center;
+    border-bottom : 2.4px solid gray;
+}
+
+#import_selecting {
+    color : purple;                                              
+    font-size : 24px;       
+    margin-left : 50px;                          
+}
+
+#import_sel_paragraph {
+    color : indigo;                                              
+    font-size : 24px;       
+    margin-left : 85px;
+}
