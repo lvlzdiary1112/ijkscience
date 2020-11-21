@@ -8,7 +8,7 @@ if(Chrome > -1) {
         alert("edge browser");
     } else {
         alert("chrome")
-        window.location.href = "www.google.com";
+        window.location.href = "https://www.google.com";
     }
 } else {
     alert("internet explorer");
