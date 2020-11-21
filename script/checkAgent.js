@@ -1,15 +1,9 @@
-var UserAgent = window.navigator.userAgent.toLowerCase();
-var Chrome = UserAgent.indexOf('chrome');
-var Edge = UserAgent.indexOf('edge');
-var IE = UserAgent.indexOf('trident');
-
-if(Chrome > -1) {
-    if(Edge > -1) {
-        alert("edge browser");
-    } else {
-        alert("chrome")
-        window.location.href = "https://www.google.com";
-    }
-} else {
-    alert("internet explorer");
-}
+var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'Windows CE;', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Mobile', 'Symbian', 'Opera Mobi', 'Opera Mini', 'IEmobile');
+	  for (var word in mobileKeyWords) {
+		if (navigator.userAgent.match(mobileKeyWords[word]) != null) {
+			alert("모바일로 접속시 화면이 깨지는 현상이 일어날 수 있습니다.");
+		   break;
+	  } else {
+          alert("PC에서 웹사이트 크기를 줄이면 화면이 깨지는 현상이 일어날 수 있습니다.");
+      }
+	}
