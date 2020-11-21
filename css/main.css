@@ -17,10 +17,10 @@ body {
     background: #dfe6e9;
 }
 .title {
-    width: flex;
-    height: 13rem;
+    width: 1500px;
+    height: 7rem;
     background:#55efc4;
-    margin : 50px;
+    margin : 0 auto;
     padding : 30px;
     border-radius: 12px;
     font-size: 2.7rem;
@@ -28,56 +28,58 @@ body {
     line-height: 3rem;
 }
 .section {
-    width: flex;
+    width: 1600px;
+    position: relative;
     height : 43rem;
     background :#ffeaa7;
-    margin : 30px;
+    margin: 30px auto;
     padding : 30px;
     border-radius: 12px;
     font-size: 2.5rem;
     text-align: center;
 }
 .paragraph {
-    width : flex;
+    width : 1200px;
     height : 10rem;
     background : white;
     border-radius: 12px;
-    margin : 30px;
+    margin: 30px auto;
     padding : 30px;
     font-size: 1.5rem;
 }
 .notapplause_section {
-    width: flex;
+    width: 1600px;
     height : 15rem;
     background :#ffeaa7;
-    margin : 30px;
+    margin: 30px auto;
     padding : 30px;
     border-radius: 12px;
     font-size: 2.5rem;
     text-align: center;
 }
 .notapplause_paragraph {
-    width : flex;
+    width : 1200px;
     height : 6rem;
     background : white;
     border-radius: 12px;
-    margin : 30px;
+    margin: 30px auto;
     padding : 30px;
     font-size: 1.5rem;
 }
 .copyright {
-    width : flex;
+    width : 1700px;
     height : 1.8rem;
     background : #a29bfe;
     border-radius: 12px;
-    margin : 30px;
+    margin: 30px auto;
     padding : 30px;
     font-size: 1.5rem;
+    text-align: center;
 }
 .site_redirect {
-    width : 17%;
+    width : 200px;
     height : 4rem;
-    margin : 10px;
+    margin: 10px auto;
     background : #badc58;
     border : 1px solid #badc58;
     border-radius: 10px;
