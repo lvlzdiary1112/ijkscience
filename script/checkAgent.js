@@ -5,5 +5,6 @@ var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windo
 		   break;
 	  } else {
           alert("PC에서 웹사이트 크기를 줄이면 화면이 깨지는 현상이 일어날 수 있습니다.");
+		  break;
       }
 	}
