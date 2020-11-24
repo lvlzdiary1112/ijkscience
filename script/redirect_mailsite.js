@@ -1,5 +1,6 @@
 $("button#redirect_naver").click( function () {
     alert("아래의 이메일을 복사 한 후, 확인을 누르면 네이버 이메일로 이동합니다.\n\n lovelinus_sujeong@naver.com");
+    copyToClipboard('lovelinus_sujeong@naver.com');
     window.location.href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com";
 });
 $("button#redirect_google").click( function () {
