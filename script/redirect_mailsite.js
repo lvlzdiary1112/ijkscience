@@ -12,6 +12,7 @@ var UserAgent = navigator.platform;
 $("button#redirect_naver").click( function () {
   if (UserAgent.match(/i(Phone|Pod)/i) != null ){
     alert("애플 기기에서는 자동 복사가 되지 않습니다. 사이트를 새로고침하여 이메일을 미리 복사하고 이동해주세요.\n 확인을 누르면 새로고침됩니다.");
+    windows.location.href="https://ijkscience.";
   } else {
     copyToClipboard('lovelinus_sujeong@naver.com');
     alert("이메일이 자동으로 복사되었습니다.\n 확인을 누르면 네이버 이메일로 이동합니다.");
@@ -21,6 +22,7 @@ $("button#redirect_naver").click( function () {
 $("button#redirect_google").click( function () {
     if (UserAgent.match(/i(Phone|Pod)/i) != null ){
     alert("애플 기기에서는 자동 복사가 되지 않습니다. 사이트를 새로고침하여 이메일을 미리 복사하고 이동해주세요.\n 확인을 누르면 새로고침됩니다.");
+    windows.location.href="https://ijkscience.";
   } else {
     copyToClipboard('lovelinus_sujeong@naver.com');
     alert("이메일이 자동으로 복사되었습니다.\n 확인을 누르면 구글 이메일로 이동합니다.");
@@ -30,6 +32,7 @@ $("button#redirect_google").click( function () {
 $("button#redirect_outlook").click( function () {
     if (UserAgent.match(/i(Phone|Pod)/i) != null ){
     alert("애플 기기에서는 자동 복사가 되지 않습니다. 사이트를 새로고침하여 이메일을 미리 복사하고 이동해주세요.\n 확인을 누르면 새로고침됩니다.");
+    windows.location.href="https://ijkscience.";
   } else {
     copyToClipboard('lovelinus_sujeong@naver.com');
     alert("이메일이 자동으로 복사되었습니다.\n 확인을 누르면 아웃룩 이메일로 이동합니다.");
@@ -39,6 +42,7 @@ $("button#redirect_outlook").click( function () {
 $("button#redirect_daum-hanmail").click( function () {
     if (UserAgent.match(/i(Phone|Pod)/i) != null ){
     alert("애플 기기에서는 자동 복사가 되지 않습니다. 사이트를 새로고침하여 이메일을 미리 복사하고 이동해주세요.\n 확인을 누르면 새로고침됩니다.");
+    windows.location.href="https://ijkscience.";
   } else {
     copyToClipboard('lovelinus_sujeong@naver.com');
     alert("이메일이 자동으로 복사되었습니다.\n 확인을 누르면 다음(한메일) 이메일로 이동합니다.");
@@ -48,6 +52,7 @@ $("button#redirect_daum-hanmail").click( function () {
 $("button#redirect_daum-hanmail").click( function () {
 if (UserAgent.match(/i(Phone|Pod)/i) != null ){
     alert("애플 기기에서는 자동 복사가 되지 않습니다. 사이트를 새로고침하여 이메일을 미리 복사하고 이동해주세요.\n 확인을 누르면 새로고침됩니다.");
+    windows.location.href="https://ijkscience.";
   } else {
     copyToClipboard('lovelinus_sujeong@naver.com');    
     alert("이메일이 자동으로 복사되었습니다.\n 확인을 누르면 다음(카카오) 이메일로 이동합니다.");
