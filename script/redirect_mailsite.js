@@ -11,7 +11,7 @@ var UserAgent = navigator.platform;
 
 $("button#redirect_naver").click( function () {
   if (UserAgent.match(/i(Phone|Pod)/i) != null ){
-    alert("애플 기기에서는 자동 복사가 되지 않습니다. 확인을 눌리면 .");
+    alert("애플 기기에서는 자동 복사가 되지 않습니다. 사이트를 새로고침하여 이메일을 미리 복사하고 이동해주세요.");
   } else {
     copyToClipboard('lovelinus_sujeong@naver.com');
     alert("아래의 이메일을 복사 한 후, 확인을 누르면 네이버 이메일로 이동합니다.\n\n lovelinus_sujeong@naver.com");
