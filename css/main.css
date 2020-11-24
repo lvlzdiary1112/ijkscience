@@ -30,7 +30,7 @@ body {
 .section {
     width: 1600px;
     position: relative;
-    height : 52rem;
+    height : 43rem;
     background :#ffeaa7;
     margin: 30px auto;
     padding : 30px;
@@ -40,7 +40,7 @@ body {
 }
 .paragraph {
     width : 1200px;
-    height : 10rem;
+    height : 25rem;
     background : white;
     border-radius: 12px;
     margin: 30px auto;
