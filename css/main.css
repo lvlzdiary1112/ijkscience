@@ -30,7 +30,7 @@ body {
 .section {
     width: 1600px;
     position: relative;
-    height : 45rem;
+    height : 47rem;
     background :#ffeaa7;
     margin: 30px auto;
     padding : 30px;
@@ -40,11 +40,11 @@ body {
 }
 .paragraph {
     width : 1200px;
-    height : 28rem;
+    height : 33rem;
     background : white;
     border-radius: 12px;
-    margin: 30px auto;
-    padding : 30px;
+    margin: 15px auto;
+    padding : 15px;
     font-size: 1.5rem;
 }
 .notapplause_section {
